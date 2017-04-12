@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: GitHub, IOT, HTML5, NodeJS, MicroController, Arduino, JS
+percentage: 100, 35, 65, 80, 70, 90, 50
