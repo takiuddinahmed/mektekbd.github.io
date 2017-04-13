@@ -5,7 +5,7 @@ date:   2017-03-28
 desc: "test"
 keywords: "mektek"
 categories: [project_iot]
-tags: [mektek]
+tags: [project]
 icon: icon-html
 ---
 
