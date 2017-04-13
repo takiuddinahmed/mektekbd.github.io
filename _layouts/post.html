@@ -42,6 +42,16 @@ layout: default
                         </div>
                     </div>
                     <br>
+                       <div class="PageNavigation">
+                     
+                      {% if page.next.tags contains "mektek" %}
+                        <a class="prev btn btn-danger" href="{{page.next.url}}">&laquo; Previous Post </a>
+                      {% endif %}
+                       {% if page.previous.tags contains "mektek" %}
+                        <a class="next btn btn-primary" href="{{page.previous.url}}"> Next Post &raquo;</a>
+                      {% endif %}
+                   
+                    </div><br><br><br>
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- donate -->
