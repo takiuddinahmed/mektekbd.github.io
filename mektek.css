@@ -36,7 +36,25 @@ img {
 .templete{margin:0 auto;}
 .clear{overflow:hidden; margin:0px;padding:0px;}
 
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
 
+.PageNavigation a {
+  display: block;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  position:absolute;
+  right:0;
+  margin-right:100px;
+
+}
 
 .pt
 {
