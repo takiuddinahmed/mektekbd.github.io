@@ -154,6 +154,7 @@ img {
           .pt
           {
           	 height:650px;
+		 overflow: hidden;  
           }
 
 }
