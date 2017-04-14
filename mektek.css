@@ -149,3 +149,11 @@ img {
    
 }
 
+@media only screen and (max-width:400px) and (min-width:100px)
+{
+          .pt
+          {
+          	 height:650px;
+          }
+
+}
