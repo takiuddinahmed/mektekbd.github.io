@@ -4,22 +4,21 @@
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 - name: MicroController
-  href: /microcontroller/
-
+  href: http://microcontroller.mektekbd.com
 - name: Arduino
-  href: /arduino/
+  href: http://arduino.mektekbd.com
 
 - name: RaspBerry PI
-  href: /raspberry_pi/
+  href: http://raspberry.mektekbd.com
 
 - name: IOT
-  href: /iot/
+  href: http://iot.mektekbd.com
 
 - name: Web
-  href: /web/
+  href: http://web.mektekbd.com
 
 - name: Networking
-  href: /networking/
+  href: http://networking.mektekbd.com
 
 # Don't display donation page: change donation to off at file '_config.yml'
 - name: Donate
