@@ -84,7 +84,7 @@
     i18n: company_f_job
   icon: fa-plus-square 
   
- - name:
+- name:
     detail: Achievement 7
     i18n: company_f
   desc:
@@ -98,7 +98,7 @@
     i18n: company_f_job
   icon: fa-plus-square 
   
- - name:
+- name:
     detail: Achievement 8
     i18n: company_f
   desc:
@@ -112,7 +112,7 @@
     i18n: company_f_job
   icon: fa-plus-square 
   
-  - name:
+ - name:
     detail: Achievement 9
     i18n: company_f
   desc:
