@@ -98,30 +98,3 @@
     i18n: company_f_job
   icon: fa-plus-square 
   
-- name:
-    detail: Achievement 8
-    i18n: company_f
-  desc:
-    detail: 2nd runner up and  honerable position at project showcasing in  EEE day 2017, BUET in Senior Catagory
-    i18n: company_f_desc
-  date:
-    detail: 18th May,2017
-    i18n: company_f_date
-  job:
-    detail: Dhaka
-    i18n: company_f_job
-  icon: fa-plus-square 
-  
- - name:
-    detail: Achievement 9
-    i18n: company_f
-  desc:
-    detail: Runner up and  honerable position at project showcasing in  EEE day 2017, BUET in Junior Catagory
-    i18n: company_f_desc
-  date:
-    detail: 18th May,2017
-    i18n: company_f_date
-  job:
-    detail: Dhaka
-    i18n: company_f_job
-  icon: fa-plus-square 
