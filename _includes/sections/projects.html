@@ -6,7 +6,39 @@
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
-    <div class="row">
+     <div class="row">
+      {% for post in site.categories.project_iot limit:20 %}
+      <div class="col-sm-4">
+       <div class="team-member wow zoomIn">
+       <div class="xm">  
+       <div class="th"> 
+      
+       {% assign images = post.content | split:"<img " %}
+                           {% for image in images %}
+                              {% if image contains 'src=' %}
+                                {% assign imageMarkup = image | split:">" | first %}
+                                <img {{ imageMarkup }}>
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+       
+      </div>
+                <br><br><h4><span class="navy"> {{ post.title }}</span>  </h4><br>
+                <!--<p>
+                 {{ post.excerpt }}
+ 
+               </p>-->
+                
+              <a class="btn btn-info" href="{{ post.url | prepend: site.baseurl }}" class="vote-title">Show Project</a><br>
+                   
+                
+           
+       </div>
+       </div>
+    </div>
+     {% endfor %}
+
+    <!--<div class="row">
       <div class="col-sm-4">
        <div class="team-member wow zoomIn">
        {% for post in site.categories.project_iot limit:1 %}
@@ -25,7 +57,7 @@
        {% for post in site.categories.project_iot limit:1 %}
        <img src="https://mektekbd.github.io/static/assets/img/blog/in.gif" class="img-responsive" alt="">
                 <h4><span class="navy"> {{ post.title }}</span>  </h4><br>
-                <p style="color:black;">Industry automation or smart Industry is building automation for the industry. It involves the control and automation of lighting, heating, start nachine, controlling, and security, as well as industry machines</p>
+                <p style="color:black;">Industry automation or smart Industry is building automation for the industry. It involves the control and automation of lighting, heating, machine, calculating, and security, as well as industry machines</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Show Project</a><br>
            
 
@@ -96,8 +128,10 @@
             </div>
         </div>
         {% endfor %}
-    </div>-->
-    </div><br>
+    </div>
+    </div><br>-->
+    </div>
+    <br>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
             <p><a class="btn btn-info" href="{{site.baseurl}}/projects/"><font style="font-size: 20px">Our All Projects</font></a></p>
