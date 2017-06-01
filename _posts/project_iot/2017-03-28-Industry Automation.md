@@ -12,7 +12,7 @@ icon: icon-html
 
 
    <!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-	<center><img src="{{ site.img_path }}/in.gif" width="700px" height="600px"><center>
+	
 
 <center>Details : Not Available Now</center>
 	
