@@ -26,18 +26,18 @@ permalink: /project_iot/
       <div class="col-sm-4">
        <div class="team-member wow zoomIn">
        <div class="xm">  
-       <div class="th"> 
+        
       
        {% assign images = post.content | split:"<img " %}
                            {% for image in images %}
                               {% if image contains 'src=' %}
                                 {% assign imageMarkup = image | split:">" | first %}
-                                <img {{ imageMarkup }}>
+                                <img class="img-responsive" {{ imageMarkup }}>
                                 {% break %}
                               {% endif %}
                             {% endfor %}
        
-      </div>
+     
                 <br><br><h4><span class="navy"> {{ post.title }}</span>  </h4><br>
                
                 
