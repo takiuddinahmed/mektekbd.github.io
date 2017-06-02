@@ -13,7 +13,7 @@
        <div class="xm">  
         
       
-       {% assign images = post.content | split:"<img class="img-responsive" " %}
+       {% assign images = post.content | split:"<img " %}
                            {% for image in images %}
                               {% if image contains 'src=' %}
                                 {% assign imageMarkup = image | split:">" | first %}
