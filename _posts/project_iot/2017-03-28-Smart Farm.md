@@ -14,4 +14,4 @@ icon: icon-html
    <!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
 	<center><img src="{{ site.img_path }}/farm.jpg" width="700px" height="600px"><center>
 
-<br><br><center><h3>Details</h3> : <a href="http://khamarbari.mektekbd.com"><h3>Visit Our Project Site</h3></a></center>
+<br><br><center>Details : <a href="http://farm.mektekbd.com">Visit Our Project Site</a></center>
