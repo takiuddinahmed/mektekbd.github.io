@@ -30,8 +30,8 @@
   tpl: blog.html
   css: testimonials navy-section
 
-- id: links
+- id: contact
   i18n: nav.link
   name: Contact
-  tpl: links.html
+  tpl: contact.html
   css: contact
